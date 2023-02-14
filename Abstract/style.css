@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero__section {
+    background: #dadbf1;
+    height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero__content {
+    font-size: 5rem;
+    font-weight: 550;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    flex-direction: column;
+    height: 70px;
+    width: 3rem;
+    margin: 1rem 0;
+}
+
+input {
+    width: 700px;
+    padding: 1.2rem 1.5rem;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.middle__section {
+    max-width: 1200px;
+    width: 75%;
+    margin: 10rem auto 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    color: black;
+
+}
+
+.para1 {
+    display: flex;
+    margin: 2rem;
+}
+
+.content p {
+    font-size: 1.7rem;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.725);
+    margin: 0.5rem
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    margin: 0.5rem;
+
+}
+
+.bx {
+    font-size: 70px;
+    padding: 0 0.7rem;
+}
+
+footer {
+    background-color: black;
+    height: 60vh;
+}
+
+.names {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+    color: white;
+}
+
+.abstract {
+    font-size: 24px;
+}
+
+
+.abstract p {
+    font-size: 16px;
+    color: dimgray;
+}
+
+.resources {
+    font-size: 24px;
+}
+
+
+
+.resources p {
+    font-size: 16px;
+    color: dimgray;
+}
+
+.community {
+    font-size: 24px;
+}
+
+
+.community p {
+    font-size: 16px;
+    color: dimgray;
+}
+
+
+.company {
+    font-size: 24px;
+}
+
+
+.company p {
+    font-size: 16px;
+    color: dimgray;
+}
+
+.img {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 16rem 0 0;
+}
+
+.footer__copyright {
+    color: white;
+    
+    justify-content: flex-end;
+}
+
+thank you
+/* done? */

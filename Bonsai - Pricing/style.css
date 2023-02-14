@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bottom__line {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    color: rgba(101, 129, 109, .7);
+    padding: 24px 14px;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    letter-spacing: .25px;
+    text-decoration: none;
+}
+
+.hero__section {
+    text-align: center;
+    color: #003c2f;
+    font-size: 2.3rem;
+    font-weight: 700;
+    width: 60%;
+    line-height: 160%;
+    margin: 8rem auto;
+}
+
+.mid__section {
+    margin: 3rem;
+    height: 80vh;
+    background-color: cadetblue;
+}
+
+
+.mid__section h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #003c2f;
+    font-size: 42px;
+    line-height: 100%;
+    font-weight: 700;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.2rem;
+    width: 85%;
+    margin: 4rem auto;
+
+}
+
+.collaborators {
+    height: 350px;
+    padding: auto 2rem;
+    margin: auto;
+    border: 1px solid #d3dcd4;
+    border-radius: 8%;
+}
+
+.collaborators h4 {
+    padding: 10px;
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 1.5rem;
+}
+
+.collaborators p {
+    color: #65816d;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+    padding: 0 1.5rem;
+}
+
+.partners {
+    background-color: chartreuse;
+    height: 350px;
+    border: 1px solid #d3dcd4;
+    border-radius: 8%;
+}
+
+.partners h4 {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 1.5rem;
+}
+
+.partners p {
+    color: #65816d;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+    padding: 0 1.5rem;
+}
+
+
+
+.tax__assistant {
+    height: 350px;
+    border: 1px solid #d3dcd4;
+    border-radius: 8%;
+}
+
+.tax__assistant h4 {
+    margin-top: 20px;
+    padding: 1.5rem;
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.tax__assistant p {
+    color: #65816d;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+    padding: 0 1.5rem;
+}
