@@ -152,3 +152,8 @@ span {
     font-weight: 400;
     padding: 0 1.5rem;
 }
+
+a {
+    padding: 0 1.5rem;
+    margin-top: 3rem;
+}
