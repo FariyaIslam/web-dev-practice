@@ -20,7 +20,6 @@
 
 .hero__section {
     text-align: center;
-    color: #003c2f;
     font-size: 2.3rem;
     font-weight: 700;
     width: 60%;
@@ -31,17 +30,16 @@
 .mid__section {
     margin: 3rem;
     height: 80vh;
-    background-color: cadetblue;
 }
 
 
 .mid__section h2 {
     text-align: center;
     margin-top: 20px;
-    color: #003c2f;
     font-size: 42px;
     line-height: 100%;
     font-weight: 700;
+    color: #003c2f;
 
 }
 
@@ -56,6 +54,8 @@
 
 .collaborators {
     height: 350px;
+    padding: auto 2rem;
+    margin: auto;
     border: 1px solid #d3dcd4;
     border-radius: 8%;
 }
@@ -67,6 +67,7 @@
     font-weight: 700;
     margin-top: 20px;
     padding: 1.5rem;
+    color: #003c2f;
 }
 
 .collaborators p {
@@ -87,7 +88,6 @@
 }
 
 .partners {
-    background-color: chartreuse;
     height: 350px;
     border: 1px solid #d3dcd4;
     border-radius: 8%;
@@ -101,6 +101,23 @@
     font-weight: 700;
     margin-top: 20px;
     padding: 1.5rem;
+    color: #003c2f;
+}
+
+h3 {
+    text-align: right;
+    margin: 9rem 2rem 0 0;
+    color: #003c2f;
+    font-size: 32px;
+    line-height: 100%;
+    font-weight: 700;
+}
+
+span {
+    color: grey;
+    font-size: 16px;
+    font-weight: 700;
+
 }
 
 .partners p {
@@ -125,6 +142,7 @@
     font-size: 22px;
     line-height: 120%;
     font-weight: 700;
+    color: #003c2f;
 }
 
 .tax__assistant p {
