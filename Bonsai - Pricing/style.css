@@ -154,6 +154,13 @@ span {
 }
 
 a {
-    padding: 3rem 1.5rem;
+    padding: 5rem 1.5rem;
     color: #22ad01;
+}
+
+.faq__section {
+    background: olive;
+    position: relative;
+    height: 70vh;
+
 }
