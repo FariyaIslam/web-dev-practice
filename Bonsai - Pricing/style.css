@@ -164,8 +164,7 @@ a {
     height: 80vh;
 }
 
-#accordian {
+.accordian {
     margin: 100px auto;
     width: 600px;
-
 }
