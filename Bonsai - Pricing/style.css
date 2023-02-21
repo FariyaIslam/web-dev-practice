@@ -177,3 +177,8 @@ a {
     padding: 10px;
     border-radius: 4px;
 }
+
+.accordian li label {
+    padding: 10px;
+    display: flex;
+}
